@@ -57,10 +57,5 @@
 	<!-- IMPORT partials/move_post_modal.tpl -->
 </div>
 
-<!-- IF !config.usePagination -->
-<noscript>
-	<!-- IMPORT partials/paginator.tpl -->
-</noscript>
-<!-- ENDIF !config.usePagination -->
-
+<!-- IMPORT partials/noscript/paginator.tpl -->
 <!-- IMPORT partials/variables/topic.tpl -->

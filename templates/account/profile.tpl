@@ -86,7 +86,7 @@
 
 					<!-- IF websiteName -->
 					<span class="account-bio-label">[[user:website]]</span>
-					<span class="account-bio-value"><a href="{websiteLink}">{websiteName}</a></span>
+					<span class="account-bio-value"><a href="{website}">{websiteName}</a></span>
 					<!-- ENDIF websiteName -->
 
 					<!-- IF location -->
@@ -154,7 +154,7 @@
 
 		<div class="col-md-7">
 		<!-- IF !posts.length -->
-		<div class="alert alert-info">[[user:has_no_posts]]</div>
+		<span>[[user:has_no_posts]]</span>
 		<!-- ENDIF !posts.length -->
 		<!-- IMPORT partials/posts_list.tpl -->
 		</div>
